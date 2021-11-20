@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+input, textarea, select{
+    outline: 0;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.box-game{
+    text-align: center;
+    width: 450px;
+    height: 500px;
+    background-color: rgba(48, 80, 224, 0.849);
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 0 10px;
+}
+
+.title{
+    font-size: 30px;
+    text-shadow: 1px 1px black;
+    padding: 10px
+}
+
+.player-pc{
+    font-size: 20px;
+    border: none;
+}
+
+.icons-player{
+    width: 60px;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+.options{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.input input[type=button],
+.input input[type=reset]{
+    width: 40%;
+    height: 30px;
+    margin: 10px;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    color: #FFFFFF;
+    background-color: rgb(72, 58, 194);
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+}
+
+.input input[type=button]:disabled{
+    pointer-events: none;
+}
+
+.input input[type=button]:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+.input input[type=button]:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+.input input[type=reset]:disabled{
+    pointer-events: none;
+}
+
+.input input[type=reset]:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+.input input[type=reset]:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+.icon-robot{
+    width: 60px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
