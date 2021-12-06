@@ -14,7 +14,7 @@ Pedra | Papel | Computador
 Pedra | Tesoura | Jogador
 Papel | Pedra | Jogador
 Papel | Tesoura | Computador
-Teoura | Pedra | Computador
+Tesoura | Pedra | Computador
 Tesoura | Papel | Jogador
 
 -Quando o dois fizerem a mesma jogada, vai ser _**empate**_. 
